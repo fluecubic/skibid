@@ -2,15 +2,15 @@
   <body>
     <button id="unten">Unten</button>
       <button id="oben">Oben</button>
-    <div></div>
+    <div id="div"></div>
     <script>
       let c = 1
       document.getElementById("unten").addEventListener("click", function(){
-        document.getElementsByTagName[0]("div").innerHTML += c + ": Unten <br>"
+        document.getElementById("div").innerHTML += c + ": Unten <br>"
         c++
       })
       document.getElementById("oben").addEventListener("click", function(){
-        document.getElementsByTagName[0]("div").innerHTML += c + ": Oben <br>"
+        document.getElementById("div").innerHTML += c + ": Oben <br>"
         c++
       })
     </script>
